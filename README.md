@@ -1,32 +1,33 @@
+![NOXUS Optimizer](pic.png)
+
 # NOXUS Optimizer
 
-**Your PC. Your tools. Better control.**
+**A Windows optimization and system maintenance toolkit.**
 
-NOXUS Optimizer is a Windows-based system maintenance and optimization toolkit built with Python.
-
-Designed with a clean terminal interface, NOXUS brings useful PC maintenance tools together in one place.
+NOXUS Optimizer brings useful PC maintenance tools together in one clean terminal-based application.
 
 ## Features
 
-- **Quick Optimize** — Guided maintenance routine
-- **Temporary File Cleaner** — Scan and remove temporary files
-- **DNS Cleanup** — Flush Windows DNS cache
-- **Gaming Mode** — Enable Windows Game Mode preferences
-- **Power Plan Manager** — Switch Windows power plans
-- **Startup Review** — Inspect startup applications
-- **Windows Repair** — SFC and DISM repair tools
-- **Drive Optimizer** — Analyze and optimize drives
-- **Disk Check** — Scan for file-system errors
-- **Defender Scan** — Start a Microsoft Defender quick scan
-- **Recycle Bin Cleaner** — Empty the Recycle Bin
-- **Restore Point** — Create Windows restore points
-- **System Information** — View PC hardware and OS details
+- Quick Optimize
+- Temporary File Cleaner
+- DNS Cache Cleanup
+- Windows Gaming Mode
+- Power Plan Manager
+- Startup Application Review
+- Windows System Repair (SFC / DISM)
+- Drive Analysis and Optimization
+- Disk Check (CHKDSK)
+- Microsoft Defender Quick Scan
+- Recycle Bin Cleaner
+- System Restore Point Creation
+- System Information
+- Optimization History
 
 ## Requirements
 
-- Windows 10 or Windows 11
-- Python 3.10+
-- Administrator permissions for certain operations
+- Windows 10 / Windows 11
+- Python 3.10 or newer (for Python version)
+- Administrator permissions for certain features
 
 ## Installation
 
@@ -36,21 +37,23 @@ Install the required dependency:
 py -m pip install psutil
 ```
 
-Run NOXUS:
+Run the Python version:
 
 ```bash
 py NOXUS_Optimizer.py
 ```
 
-## Standalone EXE
+## Download
 
-NOXUS can also be packaged into a standalone Windows executable using PyInstaller.
+You can download the standalone Windows executable from the **Releases** section of this repository.
 
-## Important
+No Python installation is required to run the compiled EXE.
 
-Some operations require administrator permissions. Review confirmation prompts before performing cleanup or system changes.
+## Disclaimer
 
-NOXUS does not guarantee FPS increases or performance improvements on every PC.
+NOXUS Optimizer uses built-in Windows utilities for system maintenance and repair. Some features require administrator permissions. Always review confirmation prompts before performing system changes.
+
+Performance improvements vary depending on your hardware and system configuration.
 
 ---
 
